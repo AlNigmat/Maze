@@ -13,7 +13,7 @@ install: clean build
 build:
 	mkdir $(DIRBUILD)
 	cd $(DIRBUILD) && qmake ../Maze.pro && make
-	cd $(DIRBUILD) && open Maze.app
+	cd build && open Maze.app
 
 uninstall:
 	rm -rf $(DIRBUILD)
