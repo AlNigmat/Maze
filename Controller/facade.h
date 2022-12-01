@@ -4,7 +4,7 @@
 
 #include "../Model/interface.h"
 
-namespace s21 {
+namespace al21 {
 class Facade {
  private:
   s21::Interface* inter;
@@ -27,4 +27,4 @@ class Facade {
   bool caveStep(size_t birth, size_t death);
 };
 
-}  // namespace s21
+}  // namespace al21
