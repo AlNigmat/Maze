@@ -1,6 +1,6 @@
 #include "openMaze.h"
 
-namespace s21 {
+namespace al21 {
 
 bool OpenMaze::openFile(std::string fileName) {
   cleanData();
@@ -97,4 +97,4 @@ std::pair<std::vector<bool>, bool> OpenMaze::parsingLine(std::string line) {
   return {oneLine, isValid};
 }
 
-}  // namespace s21
+}  // namespace al21
