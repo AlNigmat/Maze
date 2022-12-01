@@ -1,6 +1,6 @@
 #include "mazeData.h"
 
-namespace s21 {
+namespace al21 {
 
 std::pair<std::vector<std::vector<bool>>, std::vector<std::vector<bool>>> Maze::getData() {
   return {data.rightWalls, data.bottomWalls};
@@ -115,4 +115,4 @@ void Maze::saveMaze(std::string fileName) {
   }
 }
 
-}  // namespace s21
+}  // namespace al21
