@@ -6,7 +6,7 @@
 
 #include "caveData.h"
 
-namespace s21 {
+namespace al21 {
 
 class OpenCave : public Cave {
  private:
@@ -18,4 +18,4 @@ class OpenCave : public Cave {
   bool openFile(std::string fileName);
 };
 
-}  // namespace s21
+}  // namespace al21
