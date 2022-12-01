@@ -14,7 +14,7 @@ class MainWindow;
 }
 QT_END_NAMESPACE
 
-namespace s21 {
+namespace al21 {
 
 class MainWindow : public QMainWindow {
   Q_OBJECT
@@ -39,4 +39,4 @@ class MainWindow : public QMainWindow {
   Facade* f;
   QTimer* timer;
 };
-}  // namespace s21
+}  // namespace al21
