@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-namespace s21 {
+namespace al21 {
 
 class Cave {
  protected:
@@ -23,4 +23,4 @@ class Cave {
   bool oneStep(size_t birth, size_t death);
 };
 
-}  // namespace s21
+}  // namespace al21
