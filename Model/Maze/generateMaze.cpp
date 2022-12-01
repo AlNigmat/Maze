@@ -1,6 +1,6 @@
 #include "generateMaze.h"
 
-namespace s21 {
+namespace al21 {
 
 void Generate::createEmptyMaze(size_t rows, size_t cols) {
   data.rows = rows;
@@ -129,4 +129,4 @@ void Generate::createLastWalls() {
   data.bottomWalls[data.rows - 1][data.cols - 1] = true;
 }
 
-}  // namespace s21
+}  // namespace al21
