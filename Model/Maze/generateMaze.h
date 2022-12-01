@@ -6,7 +6,7 @@
 
 #include "mazeData.h"
 
-namespace s21 {
+namespace al21 {
 class Generate : public Maze {
  private:
   std::vector<int> setLine;
@@ -28,4 +28,4 @@ class Generate : public Maze {
   bool generate(size_t rows, size_t cols);
 };
 
-}  // namespace s21
+}  // namespace al21
