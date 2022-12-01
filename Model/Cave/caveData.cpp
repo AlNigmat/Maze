@@ -1,6 +1,6 @@
 #include "caveData.h"
 
-namespace s21 {
+namespace al21 {
 
 std::vector<std::vector<bool>> Cave::getData() { return data.life; }
 
@@ -43,4 +43,4 @@ void Cave::cleanData() {
   data.rows = 0, data.cols = 0;
 }
 
-}  // namespace s21
+}  // namespace al21
