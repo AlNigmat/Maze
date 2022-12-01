@@ -6,7 +6,7 @@
 
 #include "mazeData.h"
 
-namespace s21 {
+namespace al21 {
 
 class OpenMaze : public Maze {
  private:
@@ -18,4 +18,4 @@ class OpenMaze : public Maze {
   bool openFile(std::string fileName);
 };
 
-}  // namespace s21
+}  // namespace al21
