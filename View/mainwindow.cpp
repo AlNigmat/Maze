@@ -2,7 +2,7 @@
 
 #include "ui_mainwindow.h"
 
-namespace s21 {
+namespace al21 {
 
 MainWindow::MainWindow(Facade *facadeInit, QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow), f(facadeInit) {
@@ -126,4 +126,4 @@ bool MainWindow::nextStepPressed() {
   return res;
 }
 
-}  // namespace s21
+}  // namespace al21
