@@ -1,6 +1,6 @@
 #include "interface.h"
 
-namespace s21 {
+namespace al21 {
 
 Interface::~Interface() {
   delete openMaze;
@@ -97,4 +97,4 @@ bool Interface::step(size_t birth, size_t death) {
   }
 }
 
-}  // namespace s21
+}  // namespace al21
