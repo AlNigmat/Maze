@@ -18,10 +18,10 @@
         <br>
     </p>
     <hr style="border: 2px;">
+    <p><img src="https://github.com/AlNigmat/Maze-for-macOS/blob/main/imgs/2.png" width="300" alt="Screenshot" align="left" vspace="5" hspace="5"></p>
     <h3>
         <p>ЛАБИРИНТЫ
     </h3>
-    <p><img src="https://github.com/AlNigmat/Maze-for-macOS/blob/main/imgs/2.png" width="300" alt="Screenshot" align="left" vspace="5" hspace="5"></p>
     <p>
         Для генерации идеального лабиринта реализован Алгоритм Эйлера<br>
         Идеальным считается лабиринт, в котором из каждой точки можно попасть в любую другую точку ровно одним способом <br>
@@ -34,10 +34,10 @@
         Для нахождения пути необходимо задать 2 точки на поле лабиринта, кликнув мышью в начало и конец пути<br>
     </p>
     <hr style="border: 2px;">
+    <p><img src="https://github.com/AlNigmat/Maze-for-macOS/blob/main/imgs/1.png" width="300" alt="Screenshot" align="left" vspace="5" hspace="5"></p>
     <h3>
         <p>ПЕЩЕРЫ
     </h3>
-    <p><img src="https://github.com/AlNigmat/Maze-for-macOS/blob/main/imgs/1.png" width="300" alt="Screenshot" align="left" vspace="5" hspace="5"></p>
     <p>
         В программе реализована возможность открывать из .txt файла и генерировать пещеры с использованием клеточного автомата<br>
         При генерации используется идея, схожая с игрой "Жизнь"<br>
