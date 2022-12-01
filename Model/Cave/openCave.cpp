@@ -1,6 +1,6 @@
 #include "openCave.h"
 
-namespace s21 {
+namespace al21 {
 
 bool OpenCave::openFile(std::string fileName) {
   cleanData();
@@ -86,4 +86,4 @@ std::pair<std::vector<bool>, bool> OpenCave::parsingLine(std::string line) {
   return {oneLine, isValid};
 }
 
-}  // namespace s21
+}  // namespace al21
