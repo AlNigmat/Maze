@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-namespace s21 {
+namespace al21 {
 
 class Maze {
  protected:
@@ -25,4 +25,4 @@ class Maze {
   void saveMaze(std::string fileName);
 };
 
-}  // namespace s21
+}  // namespace al21
