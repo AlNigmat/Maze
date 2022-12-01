@@ -5,7 +5,7 @@
 #include "Maze/generateMaze.h"
 #include "Maze/openMaze.h"
 
-namespace s21 {
+namespace al21 {
 
 class Interface {
  private:
@@ -32,4 +32,4 @@ class Interface {
   bool step(size_t birth, size_t death);
   bool generateC(size_t rows, size_t cols, int chance);
 };
-}  // namespace s21
+}  // namespace al21
