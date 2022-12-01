@@ -1,6 +1,6 @@
 #include "generateCave.h"
 
-namespace s21 {
+namespace al21 {
 
 void GenerateCave::createEmptyCave(size_t rows, size_t cols) {
   data.rows = rows;
@@ -32,4 +32,4 @@ bool GenerateCave::generate(size_t rows, size_t cols, int chance) {
     return true;
   }
 }
-}  // namespace s21
+}  // namespace al21
