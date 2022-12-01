@@ -1,6 +1,6 @@
 #include "facade.h"
 
-namespace s21 {
+namespace al21 {
 
 Facade::Facade(s21::Interface *interInit) : inter(interInit) {}
 
@@ -36,4 +36,4 @@ bool Facade::generateCave(size_t rows, size_t cols, int chance) {
 
 std::vector<std::vector<bool>> Facade::getDataCave() { return inter->getDataCave(); }
 
-}  // namespace s21
+}  // namespace al21
